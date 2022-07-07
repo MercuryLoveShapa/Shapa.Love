@@ -99,7 +99,7 @@ function changeStar() {
 }
 
 function getMsg() {
-    var t = ["希望能成为有趣的人", "给时光以生命<br>给岁月以文明", "你好，请多指教", "当你在凝视着网页的时候<br>网页也正在凝视着你", "苟……", "ご注文はねこですか？", "平凡的日常正奇迹的发生着", "Lata<br>lulila<br>lulula<br>lulalila ♪♫", "ただの人間には<br>興味ありません！", "さあ、ゲームを始めよう", "搞事！搞事！搞事！", "敬畏之心！", "赞美之心！", "我很好奇！", "欢迎大家光临星象馆<br>这里有着无论何时永远不会消失<br>美丽的无穷光辉<br>满天的星星等候着大家的到来"],
+    var t = ["Losed ❤ & Loving Shapa"],
         a = random(0, t.length - 1);
 
     $("#slogan").html(t[a])
@@ -113,7 +113,7 @@ function random(t, a) {
 
 ctx.translate(x, y),
     fireAnimate(),
-    $(function () { getMsg() }),
+    // $(function () { getMsg() }),
     window.onscroll = function () {
         $(window).scrollTop() > .6 * $(window).height() ? $(".background").addClass("fixed") : $(".background").removeClass("fixed")
     },
