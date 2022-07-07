@@ -1,2 +1,1 @@
-# MERCURY
- cetacean.top
+# Shapa.Love
